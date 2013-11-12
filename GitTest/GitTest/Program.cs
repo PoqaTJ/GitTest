@@ -15,6 +15,8 @@ namespace GitTest
             Console.WriteLine("Hello, world!"); // http://en.wikipedia.org/wiki/Hello_world_program
             Console.WriteLine(); // writes a blank line
 
+            Console.WriteLine("Extra liiiiiine!! That wasn't here before!!!! What will happen when Tina merges????");
+
             Console.WriteLine(strings[rand.Next(strings.Count)]); // And this is why it's nice that the upper bound for Random.Next() is exclusive.
             Console.ReadLine(); // This makes it so the console doesn't close right away.
         }
